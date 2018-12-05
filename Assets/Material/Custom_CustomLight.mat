@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Custom_SnowShader2
-  m_Shader: {fileID: 4800000, guid: 438b085f87db6504a9f4ac0b0f73ba7b, type: 3}
+  m_Name: Custom_CustomLight
+  m_Shader: {fileID: 4800000, guid: 7163229a3d94c43908451620c82cdbed, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -18,17 +18,17 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Bump:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 4ab520608940340fcbd8629200389d3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Snow: 0.78
-    - _SnowDepth: 0
+    - _Glossiness: 0.5
+    - _Metallic: 0
     m_Colors:
-    - _SnowColor: {r: 1, g: 0, b: 0, a: 1}
-    - _SnowDirection: {r: 1.21, g: 1.69, b: 0.45, a: 1}
+    - _Color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
