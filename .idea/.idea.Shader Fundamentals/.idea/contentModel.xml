@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Shaders" t="Include">
+          <e p="AnimFloor.shader" t="Include" />
+          <e p="Basic_Transparency.shader" t="Include" />
+          <e p="Blend_Color.shader" t="Include" />
+          <e p="Checkerboard_Pattern.shader" t="Include" />
+          <e p="CustomLight.shader" t="Include" />
+          <e p="Fresnel.shader" t="Include" />
+          <e p="My Shader.shader" t="Include" />
+          <e p="Planar_Mapping.shader" t="Include" />
+          <e p="Polygon" t="Include">
+            <e p="Polygon_Clipping.shader" t="Include" />
+            <e p="PolygonController.cs" t="Include" />
+          </e>
+          <e p="Snow.shader" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Shader Fundamentals.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_Shader Fundamentals.864642449.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+  </component>
+</project>
