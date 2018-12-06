@@ -59,7 +59,7 @@
                 }
                  
                 float waveFront=step(depth,_WaveDistance);//_WaveDistance>depth?1:0//这里相当于颜色取反
-                float waveTrail = smoothstep(_WaveDistance - _WaveTrail, _WaveDistance, depth);//
+                float waveTrail = smoothstep(_WaveDistance - _WaveTrail, _WaveDistance, depth);//smoothstep平滑操作
                  //假设这里 参数为5，10，每个物体的Depth。 这样子则表示物体深度在5之前的完全显示值为0，然后在>5&&<10的部分差值 0.1,0.2,0.3这样。到了大于
                  //10的部分则返回1然后就不显示了.
                  //如果第三个值小于第一个值，则函数返回0，如果它大于第二个返回1，其他值返回0到1之间的值
@@ -68,7 +68,10 @@
                 float wave = waveFront * waveTrail;//假设深度在9.5的时候waveFront=1，而waveTrail=0.5//所以只会有中间一部分拖尾的地方是白色
                  
                 fixed4 col = lerp(source, _WaveColor, wave);
-
+                //source*(1-wave)+_WaveColor*wave
+                //source*(1-wave)=把wave混合到source上部分,_WaveColor*wave让wave混合颜色，然后在两者混合一起
+                //lerp说白了，也就是一个混合公式，他们俗称插值， 只不过w相当于以第二个参数为源，第一个参数为目标。 直白点，就是把b向a上混合
+                
                 return col;
                 //return wave;
                 
