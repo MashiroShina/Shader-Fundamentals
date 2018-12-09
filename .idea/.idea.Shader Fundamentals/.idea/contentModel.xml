@@ -9,6 +9,8 @@
           <e p="Basic_Transparency.shader" t="Include" />
           <e p="Blend_Color.shader" t="Include" />
           <e p="Checkerboard_Pattern.shader" t="Include" />
+          <e p="Clipping_Plane.shader" t="Include" />
+          <e p="ClippingPlane.cs" t="Include" />
           <e p="CustomLight.shader" t="Include" />
           <e p="Fresnel.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
