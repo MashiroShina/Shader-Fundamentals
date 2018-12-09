@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8866be55-8dc5-40a2-98bb-eda5a7fced02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Material/Custom_Fresnel.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/Custom_Fresnel.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
@@ -15,34 +17,34 @@
     <session id="-99926757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="701" />
-          <entry key="shader" value="3430" />
+          <entry key="cs" value="709" />
+          <entry key="shader" value="3575" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="701" />
-          <entry key="ShaderLab" value="3430" />
+          <entry key="C#" value="709" />
+          <entry key="ShaderLab" value="3575" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="9" />
+          <entry key="cs" value="11" />
           <entry key="shader" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="9" />
+          <entry key="C#" value="11" />
           <entry key="ShaderLab" value="16" />
         </counts>
       </usages-collector>
@@ -53,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="780">
               <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
               <folding>
                 <marker date="1544093544362" expanded="true" signature="46:2201" ph="{...}" />
@@ -69,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
+            <state relative-caret-position="662">
               <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
               <folding>
                 <marker date="1544096061805" expanded="true" signature="44:5823" ph="{...}" />
@@ -82,18 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/ObjOutLine.shader">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Clipping_Plane.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="86" selection-end-column="13" />
+            <state relative-caret-position="334">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
-                <marker date="1544097434498" expanded="true" signature="27:3280" ph="{...}" />
-                <marker date="1544097434498" expanded="true" signature="42:425" ph="{...}" />
-                <marker date="1544097434498" expanded="true" signature="440:3254" ph="{...}" />
-                <marker date="1544097434498" expanded="true" signature="631:1918" ph="{...}" />
-                <marker date="1544097434498" expanded="true" signature="1992:3248" ph="{...}" />
-                <marker date="1544097434498" expanded="true" signature="2039:3233" ph="{...}" />
+                <marker date="1544343876231" expanded="true" signature="31:2438" ph="{...}" />
+                <marker date="1544343876231" expanded="true" signature="84:399" ph="{...}" />
+                <marker date="1544343876231" expanded="true" signature="414:2409" ph="{...}" />
+                <marker date="1544343876231" expanded="true" signature="707:2398" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,28 +102,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/ClippingPlane.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
-                <marker date="1544285429017" expanded="true" signature="6:78" ph="..." />
-                <marker date="1544285429017" expanded="true" signature="122:512" ph="{...}" />
-                <marker date="1544285429017" expanded="true" signature="195:202" ph="{...}" />
-                <marker date="1544285429017" expanded="true" signature="257:510" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Clipping_Plane.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <marker date="1544286239277" expanded="true" signature="31:2389" ph="{...}" />
-                <marker date="1544286239277" expanded="true" signature="84:399" ph="{...}" />
-                <marker date="1544286239277" expanded="true" signature="414:2360" ph="{...}" />
-                <marker date="1544286239277" expanded="true" signature="707:2349" ph="{...}" />
+                <marker date="1544343648987" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544343648987" expanded="true" signature="122:517" ph="{...}" />
+                <marker date="1544343648987" expanded="true" signature="195:202" ph="{...}" />
+                <marker date="1544343648987" expanded="true" signature="257:515" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -132,10 +117,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="360">
               <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
               <folding>
-                <marker date="1544092593664" expanded="true" signature="6:78" ph="..." />
+                <marker date="1544092593664" expanded="false" signature="6:78" ph="..." />
                 <marker date="1544092593664" expanded="true" signature="157:707" ph="{...}" />
                 <marker date="1544092593664" expanded="true" signature="286:401" ph="{...}" />
                 <marker date="1544092593664" expanded="true" signature="456:463" ph="{...}" />
@@ -269,8 +254,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="809" />
@@ -366,11 +350,12 @@
       <workItem from="1543992833010" duration="10054000" />
       <workItem from="1544062798212" duration="19746000" />
       <workItem from="1544284481501" duration="1354000" />
+      <workItem from="1544341691998" duration="1810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31154000" />
+    <option name="totallyTimeSpent" value="32964000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,7 +370,7 @@
     <frame x="0" y="23" width="1440" height="809" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -511,11 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1544065553928" expanded="true" signature="6:78" ph="..." />
-            <marker date="1544065553928" expanded="true" signature="143:347" ph="{...}" />
-            <marker date="1544065553928" expanded="true" signature="279:345" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,14 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <marker date="1544082354493" expanded="true" signature="6:78" ph="..." />
-            <marker date="1544082354493" expanded="true" signature="157:880" ph="{...}" />
-            <marker date="1544082354493" expanded="true" signature="351:525" ph="{...}" />
-            <marker date="1544082354493" expanded="true" signature="573:692" ph="{...}" />
-            <marker date="1544082354493" expanded="true" signature="591:657" ph="{...}" />
-            <marker date="1544082354493" expanded="true" signature="760:876" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,19 +510,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="70" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <marker date="1544084279223" expanded="true" signature="6:78" ph="..." />
-            <marker date="1544084279223" expanded="true" signature="158:711" ph="{...}" />
-            <marker date="1544084279223" expanded="true" signature="287:402" ph="{...}" />
-            <marker date="1544084279223" expanded="true" signature="457:464" ph="{...}" />
-            <marker date="1544084279223" expanded="true" signature="532:709" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/e2/0a8d48d0/Vector4.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="780">
           <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding>
             <marker date="1544093544362" expanded="true" signature="46:2201" ph="{...}" />
@@ -562,30 +534,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/ObjOutLine.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+        <state relative-caret-position="1170">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="86" selection-end-column="13" />
           <folding>
-            <marker date="1544096061805" expanded="true" signature="44:5823" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="58:435" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="447:5821" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="509:5818" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="522:5809" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <marker date="1544092593664" expanded="true" signature="6:78" ph="..." />
-            <marker date="1544092593664" expanded="true" signature="157:707" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="286:401" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="456:463" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="531:705" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="27:3280" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="42:425" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="440:3254" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="631:1918" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="1992:3248" ph="{...}" />
+            <marker date="1544097434498" expanded="true" signature="2039:3233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -633,57 +592,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/ObjOutLine.shader">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/e0/cf1608e9/Plane.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="86" selection-end-column="13" />
+        <state relative-caret-position="260">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
           <folding>
-            <marker date="1544097434498" expanded="true" signature="27:3280" ph="{...}" />
-            <marker date="1544097434498" expanded="true" signature="42:425" ph="{...}" />
-            <marker date="1544097434498" expanded="true" signature="440:3254" ph="{...}" />
-            <marker date="1544097434498" expanded="true" signature="631:1918" ph="{...}" />
-            <marker date="1544097434498" expanded="true" signature="1992:3248" ph="{...}" />
-            <marker date="1544097434498" expanded="true" signature="2039:3233" ph="{...}" />
+            <marker date="1544096061805" expanded="true" signature="44:5823" ph="{...}" />
+            <marker date="1544096061805" expanded="true" signature="58:435" ph="{...}" />
+            <marker date="1544096061805" expanded="true" signature="447:5821" ph="{...}" />
+            <marker date="1544096061805" expanded="true" signature="509:5818" ph="{...}" />
+            <marker date="1544096061805" expanded="true" signature="522:5809" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/e0/cf1608e9/Plane.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/e2/0a8d48d0/Vector4.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        <state relative-caret-position="360">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+          <folding>
+            <marker date="1544092593664" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544092593664" expanded="true" signature="157:707" ph="{...}" />
+            <marker date="1544092593664" expanded="true" signature="286:401" ph="{...}" />
+            <marker date="1544092593664" expanded="true" signature="456:463" ph="{...}" />
+            <marker date="1544092593664" expanded="true" signature="531:705" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/ClippingPlane.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
-            <marker date="1544285429017" expanded="true" signature="6:78" ph="..." />
-            <marker date="1544285429017" expanded="true" signature="122:512" ph="{...}" />
-            <marker date="1544285429017" expanded="true" signature="195:202" ph="{...}" />
-            <marker date="1544285429017" expanded="true" signature="257:510" ph="{...}" />
+            <marker date="1544343648987" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544343648987" expanded="true" signature="122:517" ph="{...}" />
+            <marker date="1544343648987" expanded="true" signature="195:202" ph="{...}" />
+            <marker date="1544343648987" expanded="true" signature="257:515" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Clipping_Plane.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="334">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <marker date="1544286239277" expanded="true" signature="31:2389" ph="{...}" />
-            <marker date="1544286239277" expanded="true" signature="84:399" ph="{...}" />
-            <marker date="1544286239277" expanded="true" signature="414:2360" ph="{...}" />
-            <marker date="1544286239277" expanded="true" signature="707:2349" ph="{...}" />
+            <marker date="1544343876231" expanded="true" signature="31:2438" ph="{...}" />
+            <marker date="1544343876231" expanded="true" signature="84:399" ph="{...}" />
+            <marker date="1544343876231" expanded="true" signature="414:2409" ph="{...}" />
+            <marker date="1544343876231" expanded="true" signature="707:2398" ph="{...}" />
           </folding>
         </state>
       </provider>
