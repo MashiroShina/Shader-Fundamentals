@@ -6,7 +6,12 @@ Properties {
         [HDR] _Emission ("Emission", color) = (0 ,0 ,0 , 1)
 
         [Header(Lighting Parameters)]
-        _ShadowTint ("Shadow Color", Color) = (0, 0, 0, 1)
+        _ShadowTint ("Shadow Color", Color) = (0.5, 0.5, 0.5, 1)
+        [IntRange]_StepAmount ("Shadow Steps", Range(1, 16)) = 2
+        _StepWidth ("Step Size", Range(0.05, 1)) = 0.25
+        
+        _SpecularSize ("Specular Size", Range(0, 1)) = 0.1
+        _SpecularFalloff ("Specular Falloff", Range(0, 2)) = 1
 	}
 	SubShader {
 		Tags{ "RenderType"="Opaque" "Queue"="Geometry"}
@@ -22,44 +27,51 @@ Properties {
         fixed4 _Color;
         half3 _Emission;
         float3 _ShadowTint;
+        float _StepAmount;
+        float _StepWidth;
+        float _SpecularSize;
+        float _SpecularFalloff;
         
 		struct Input {
 			 float2 uv_MainTex;
 		};
 	
 	    float4 LightingStepped(SurfaceOutput s, float3 lightDir, half3 viewDir, float shadowAttenuation){
-            //how much surface normal points towards the light
-            float towardsLight = dot(s.Normal,lightDir);
-            float towardsLightChange=fwidth(towardsLight);
-            //如果第三个值小于第一个值，则函数返回0，如果它大于第二个返回1，其他值返回0到1之间的值
-            //smoothstep(edge0, edge1, x): threshod  smooth transition时使用。 x<=edge0时为0.0， x>=edge1时为1.0
-            float lightIntensity = smoothstep(0, towardsLightChange,towardsLight);//towardsLight>=0?1:0
-            #ifdef USING_DIRECTIONAL_LIGHT
-            float attenuationChange = fwidth(shadowAttenuation) * 0.5;
-            float shadow = smoothstep(0.5 - attenuationChange, 0.5 + attenuationChange, shadowAttenuation);
-            //我们想要在渐变的中间切割阴影，而不是在它完全变黑之前，我们将像素变化值的一半，然后0.5 - changevalue用作最小值和0.5 + changeValue最大值。
-            #else
-            //我们点光源不想要衰减*0.5
-            float attenuationChange = fwidth(shadowAttenuation);
-            float shadow = smoothstep(0, attenuationChange, shadowAttenuation);
-            #endif
-            lightIntensity = lightIntensity * shadow;
+
+            float towardsLight = dot(s.Normal, lightDir);
+            towardsLight = towardsLight / _StepWidth;
+            float lightIntensity = floor(towardsLight);//返回小于等于x的最大整数。
+            float change = fwidth(towardsLight);
+           lightIntensity += smoothstep(0, change, frac(towardsLight));
+            //lightIntensity = lightIntensity + smoothing;
+            lightIntensity = lightIntensity / _StepAmount;
+            lightIntensity = saturate(lightIntensity);
+            
+            //caculate Specular
+            float3 reflectionDirection = reflect(lightDir, s.Normal);
+            float towardsReflection=dot(viewDir,reflectionDirection);
+            float specularFalloff = dot(viewDir, s.Normal);
+            specularFalloff = pow(specularFalloff,_SpecularFalloff);
+            towardsReflection = towardsReflection * specularFalloff;
+            float specularChange=fwidth(towardsReflection);
+            float specularIntensity=smoothstep(1-_SpecularSize,1-_SpecularSize+specularChange,towardsReflection);
             
             //caculate shadow color
             float3 shadowColor = s.Albedo * _ShadowTint;
             float4 color;
-            color.rgb = lerp(shadowColor, s.Albedo, lightIntensity) * _LightColor0.rgb;
+            color.rgb = s.Albedo * lightIntensity * _LightColor0.rgb;
             color.a = s.Alpha;
-            return color;
+            return color+specularIntensity;
             //return lightIntensity;
         }
         
 		void surf (Input i, inout SurfaceOutput o) {
-			fixed4 col = tex2D(_MainTex, i.uv_MainTex);
-            col *= _Color;
-            o.Albedo = col.rgb;
-        
-            o.Emission = _Emission;
+			 fixed4 col = tex2D(_MainTex, i.uv_MainTex);
+             col *= _Color;
+             o.Albedo = col.rgb;
+            
+             float3 shadowColor = col.rgb * _ShadowTint;
+             o.Emission = _Emission + shadowColor;
 		}
 		ENDCG
 	}
