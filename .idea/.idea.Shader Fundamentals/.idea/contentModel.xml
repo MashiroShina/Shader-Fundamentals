@@ -29,8 +29,14 @@
             <e p="Postprocessing_Normal_Texture.shader" t="Include" />
             <e p="Postprocessing_via_Outlines.cs" t="Include" />
             <e p="Postprocessing_via_Outlines.shader" t="Include" />
+            <e p="PostprocessingBlur.cs" t="Include" />
+            <e p="PostprocessingBlur.shader" t="Include" />
           </e>
           <e p="Snow.shader" t="Include" />
+          <e p="Stencil_buffers" t="Include">
+            <e p="Stencil_Buffers 1.shader" t="Include" />
+            <e p="Stencil_Buffers.shader" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
