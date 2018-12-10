@@ -6,9 +6,9 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Custom_PostprocessingBlur
-  m_Shader: {fileID: 4800000, guid: 476d48762300e4773bb5abd3cb56cb03, type: 3}
-  m_ShaderKeywords: GAUSS _SAMPLES_HIGH
+  m_Name: Unlit_Single_Step_Toon_Light
+  m_Shader: {fileID: 4800000, guid: 97fcc8b6898e0472ea559286bb102c53, type: 3}
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,9 +22,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BlurSize: 0.5
-    - _Gauss: 1
-    - _Samples: 2
-    - _StandardDeviation: 0.014
-    m_Colors: []
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 1}
