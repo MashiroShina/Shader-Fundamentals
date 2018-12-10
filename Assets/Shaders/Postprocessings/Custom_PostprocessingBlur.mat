@@ -6,22 +6,25 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Unlit_My First Shader
-  m_Shader: {fileID: 4800000, guid: 12b2199d58f9a384dbe22a1803920b7a, type: 3}
-  m_ShaderKeywords: 
+  m_Name: Custom_PostprocessingBlur
+  m_Shader: {fileID: 4800000, guid: 476d48762300e4773bb5abd3cb56cb03, type: 3}
+  m_ShaderKeywords: GAUSS _SAMPLES_HIGH
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 1001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0b8b3af807590aa4783dbcdad1462449, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    m_Floats:
+    - _BlurSize: 0.216
+    - _Gauss: 1
+    - _Samples: 2
+    - _StandardDeviation: 0
+    m_Colors: []
