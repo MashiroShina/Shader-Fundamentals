@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Single_Step_Toon_Light"
+﻿Shader "Unlit/Improved Toon Light"
 {
 Properties {
         _Color ("Tint", Color) = (0, 0, 0, 1)
