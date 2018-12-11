@@ -13,6 +13,7 @@
           <e p="ClippingPlane.cs" t="Include" />
           <e p="CustomLight.shader" t="Include" />
           <e p="Fresnel.shader" t="Include" />
+          <e p="Improved Toon Light.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
           <e p="ObjOutLine.shader" t="Include" />
           <e p="Planar_Mapping.shader" t="Include" />
@@ -32,11 +33,15 @@
             <e p="PostprocessingBlur.cs" t="Include" />
             <e p="PostprocessingBlur.shader" t="Include" />
           </e>
+          <e p="Single_Step_Toon_Light.shader" t="Include" />
           <e p="Snow.shader" t="Include" />
           <e p="Stencil_buffers" t="Include">
             <e p="Stencil_Buffers 1.shader" t="Include" />
             <e p="Stencil_Buffers.shader" t="Include" />
           </e>
+          <e p="white_noise.shader" t="Include" />
+          <e p="white_noise_cells.shader" t="Include" />
+          <e p="WhiteNoise.cginc" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
