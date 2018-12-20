@@ -4,6 +4,7 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BakeTextureWindow.cs" t="Include" />
         <e p="Shaders" t="Include">
           <e p="AnimFloor.shader" t="Include" />
           <e p="Basic_Transparency.shader" t="Include" />
@@ -33,6 +34,8 @@
             <e p="PostprocessingBlur.cs" t="Include" />
             <e p="PostprocessingBlur.shader" t="Include" />
           </e>
+          <e p="Resslove.shader" t="Include" />
+          <e p="River.shader" t="Include" />
           <e p="Single_Step_Toon_Light.shader" t="Include" />
           <e p="Snow.shader" t="Include" />
           <e p="Stencil_buffers" t="Include">
