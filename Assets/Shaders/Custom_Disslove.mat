@@ -27,7 +27,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DissolveAmount: 0.5
+    - _DissolveAmount: 0.353
     - _Glossiness: 0.5
     - _GlowFalloff: 0
     - _GlowRange: 0.1

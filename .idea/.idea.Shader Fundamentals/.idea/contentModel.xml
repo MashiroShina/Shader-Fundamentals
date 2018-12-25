@@ -13,6 +13,7 @@
           <e p="Clipping_Plane.shader" t="Include" />
           <e p="ClippingPlane.cs" t="Include" />
           <e p="CustomLight.shader" t="Include" />
+          <e p="Disslove.shader" t="Include" />
           <e p="Fresnel.shader" t="Include" />
           <e p="Improved Toon Light.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
@@ -34,7 +35,6 @@
             <e p="PostprocessingBlur.cs" t="Include" />
             <e p="PostprocessingBlur.shader" t="Include" />
           </e>
-          <e p="Resslove.shader" t="Include" />
           <e p="River.shader" t="Include" />
           <e p="Single_Step_Toon_Light.shader" t="Include" />
           <e p="Snow.shader" t="Include" />
