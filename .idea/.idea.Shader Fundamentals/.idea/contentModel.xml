@@ -5,6 +5,17 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="BakeTextureWindow.cs" t="Include" />
+        <e p="CreatePlane.cs" t="Include" />
+        <e p="PeerPlay" t="Include">
+          <e p="Ripple Water" t="Include">
+            <e p="_scripts" t="Include">
+              <e p="CollisionScript.cs" t="Include" />
+            </e>
+            <e p="_shaders" t="Include">
+              <e p="RippleWater.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Shaders" t="Include">
           <e p="AnimFloor.shader" t="Include" />
           <e p="Basic_Transparency.shader" t="Include" />
@@ -42,6 +53,7 @@
             <e p="Stencil_Buffers 1.shader" t="Include" />
             <e p="Stencil_Buffers.shader" t="Include" />
           </e>
+          <e p="waterWave.shader" t="Include" />
           <e p="white_noise.shader" t="Include" />
           <e p="white_noise_cells.shader" t="Include" />
           <e p="WhiteNoise.cginc" t="Include" />
