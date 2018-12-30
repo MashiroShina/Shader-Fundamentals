@@ -14,6 +14,7 @@
             <e p="_shaders" t="Include">
               <e p="RippleWater.shader" t="Include" />
             </e>
+            <e p="ReadMe.txt" t="Include" />
           </e>
         </e>
         <e p="Shaders" t="Include">
@@ -58,6 +59,7 @@
           <e p="white_noise_cells.shader" t="Include" />
           <e p="WhiteNoise.cginc" t="Include" />
         </e>
+        <e p="snow_03a.shader" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

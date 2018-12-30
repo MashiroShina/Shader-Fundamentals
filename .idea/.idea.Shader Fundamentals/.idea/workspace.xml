@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8866be55-8dc5-40a2-98bb-eda5a7fced02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Custom_Disslove.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Custom_Disslove.mat.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="8866be55-8dc5-40a2-98bb-eda5a7fced02" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +12,14 @@
     <session id="-99926757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,36 +38,20 @@
         <counts>
           <entry key="cginc" value="1" />
           <entry key="cs" value="25" />
-          <entry key="shader" value="49" />
+          <entry key="shader" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C#" value="25" />
           <entry key="Cg" value="1" />
-          <entry key="ShaderLab" value="49" />
+          <entry key="ShaderLab" value="50" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
-              <folding>
-                <marker date="1544096061805" expanded="true" signature="44:5823" ph="{...}" />
-                <marker date="1544096061805" expanded="true" signature="58:435" ph="{...}" />
-                <marker date="1544096061805" expanded="true" signature="447:5821" ph="{...}" />
-                <marker date="1544096061805" expanded="true" signature="509:5818" ph="{...}" />
-                <marker date="1544096061805" expanded="true" signature="522:5809" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/waterWave.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="540">
               <caret line="36" column="66" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="66" />
               <folding>
                 <marker date="1545812246588" expanded="true" signature="26:1775" ph="{...}" />
@@ -105,19 +86,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_shaders/RippleWater.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
+            <state relative-caret-position="945">
               <caret line="63" column="23" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="23" />
               <folding>
-                <marker date="1545812831669" expanded="true" signature="98:7201" ph="{...}" />
-                <marker date="1545812831669" expanded="true" signature="112:2273" ph="{...}" />
-                <marker date="1545812831669" expanded="true" signature="2285:7178" ph="{...}" />
-                <marker date="1545812831669" expanded="true" signature="2395:7170" ph="{...}" />
+                <marker date="1545813758280" expanded="true" signature="98:7201" ph="{...}" />
+                <marker date="1545813758280" expanded="true" signature="112:2273" ph="{...}" />
+                <marker date="1545813758280" expanded="true" signature="2285:7178" ph="{...}" />
+                <marker date="1545813758280" expanded="true" signature="2395:7170" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_scripts/CollisionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -138,10 +119,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <folding>
+                <marker date="1545814816269" expanded="true" signature="0:151" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
+                <marker date="1545814816269" expanded="true" signature="182:1636" ph="{...}" />
+                <marker date="1545814816269" expanded="true" signature="195:336" ph="{...}" />
+                <marker date="1545814816269" expanded="true" signature="349:1632" ph="{...}" />
+                <marker date="1545814816269" expanded="true" signature="400:1630" ph="{...}" />
+                <marker date="1545814816269" expanded="true" signature="415:1622" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CreatePlane.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="300">
               <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <marker date="1545812135018" expanded="false" signature="6:78" ph="..." />
@@ -258,6 +256,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Improved Toon Light.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fresnel.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/snow_03a.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/d2/c9cdced5/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF22069D-743B-4FBF-9FDD-BE5EE9FD4981/cc/fbb399b5/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.shader" root0="FORCE_HIGHLIGHTING" />
@@ -370,10 +369,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,11 +430,12 @@
       <workItem from="1545266419490" duration="260000" />
       <workItem from="1545266703487" duration="4599000" />
       <workItem from="1545810077112" duration="2926000" />
+      <workItem from="1545814936470" duration="17000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59042000" />
+    <option name="totallyTimeSpent" value="59059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,10 +447,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="809" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20243205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20529328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -701,15 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <marker date="1544407608970" expanded="true" signature="33:966" ph="{...}" />
-            <marker date="1544407608970" expanded="true" signature="46:121" ph="{...}" />
-            <marker date="1544407608970" expanded="true" signature="133:964" ph="{...}" />
-            <marker date="1544407608970" expanded="true" signature="295:343" ph="/* 这里让他在小球绘制渲染前先绘制渲染 ... */" />
-            <marker date="1544407608970" expanded="true" signature="353:410" ph="{...}" />
-            <marker date="1544407608970" expanded="true" signature="418:961" ph="{...}" />
-            <marker date="1544407608970" expanded="true" signature="520:952" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,13 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <marker date="1544403541374" expanded="true" signature="32:1581" ph="{...}" />
-            <marker date="1544403541374" expanded="true" signature="46:345" ph="{...}" />
-            <marker date="1544403541374" expanded="true" signature="357:1559" ph="{...}" />
-            <marker date="1544403541374" expanded="true" signature="422:478" ph="{...}" />
-            <marker date="1544403541374" expanded="true" signature="491:1551" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,12 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <marker date="1544409714357" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544409714357" expanded="true" signature="148:1051" ph="{...}" />
-            <marker date="1544409714357" expanded="true" signature="361:1049" ph="{...}" />
-            <marker date="1544409714357" expanded="true" signature="692:1046" ph="/* draws the pixels from the source texture to the destination texture ... */" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,13 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <marker date="1544092593664" expanded="false" signature="6:78" ph="..." />
-            <marker date="1544092593664" expanded="true" signature="157:707" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="286:401" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="456:463" ph="{...}" />
-            <marker date="1544092593664" expanded="true" signature="531:705" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,6 +735,66 @@
             <marker date="1544096061805" expanded="true" signature="447:5821" ph="{...}" />
             <marker date="1544096061805" expanded="true" signature="509:5818" ph="{...}" />
             <marker date="1544096061805" expanded="true" signature="522:5809" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <marker date="1544093544362" expanded="true" signature="46:2201" ph="{...}" />
+            <marker date="1544093544362" expanded="true" signature="60:216" ph="{...}" />
+            <marker date="1544093544362" expanded="true" signature="228:2199" ph="{...}" />
+            <marker date="1544093544362" expanded="true" signature="290:2196" ph="{...}" />
+            <marker date="1544093544362" expanded="true" signature="303:2187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/waterWave.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="66" />
+          <folding>
+            <marker date="1545812246588" expanded="true" signature="26:1775" ph="{...}" />
+            <marker date="1545812246588" expanded="true" signature="40:306" ph="{...}" />
+            <marker date="1545812246588" expanded="true" signature="318:1753" ph="{...}" />
+            <marker date="1545812246588" expanded="true" signature="375:1745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_shaders/RippleWater.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="23" />
+          <folding>
+            <marker date="1545813758280" expanded="true" signature="98:7201" ph="{...}" />
+            <marker date="1545813758280" expanded="true" signature="112:2273" ph="{...}" />
+            <marker date="1545813758280" expanded="true" signature="2285:7178" ph="{...}" />
+            <marker date="1545813758280" expanded="true" signature="2395:7170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CreatePlane.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <marker date="1545812135018" expanded="false" signature="6:78" ph="..." />
+            <marker date="1545812135018" expanded="true" signature="201:1420" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="331:351" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="378:1221" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="613:772" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="656:768" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="905:1143" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="957:1139" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="1252:1418" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="1275:1294" ph="{...}" />
+            <marker date="1545812135018" expanded="true" signature="1369:1415" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -826,66 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding>
-            <marker date="1544093544362" expanded="true" signature="46:2201" ph="{...}" />
-            <marker date="1544093544362" expanded="true" signature="60:216" ph="{...}" />
-            <marker date="1544093544362" expanded="true" signature="228:2199" ph="{...}" />
-            <marker date="1544093544362" expanded="true" signature="290:2196" ph="{...}" />
-            <marker date="1544093544362" expanded="true" signature="303:2187" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CreatePlane.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          <folding>
-            <marker date="1545812135018" expanded="false" signature="6:78" ph="..." />
-            <marker date="1545812135018" expanded="true" signature="201:1420" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="331:351" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="378:1221" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="613:772" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="656:768" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="905:1143" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="957:1139" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1252:1418" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1275:1294" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1369:1415" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/waterWave.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="66" />
-          <folding>
-            <marker date="1545812246588" expanded="true" signature="26:1775" ph="{...}" />
-            <marker date="1545812246588" expanded="true" signature="40:306" ph="{...}" />
-            <marker date="1545812246588" expanded="true" signature="318:1753" ph="{...}" />
-            <marker date="1545812246588" expanded="true" signature="375:1745" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_shaders/RippleWater.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="23" />
-          <folding>
-            <marker date="1545812831669" expanded="true" signature="98:7201" ph="{...}" />
-            <marker date="1545812831669" expanded="true" signature="112:2273" ph="{...}" />
-            <marker date="1545812831669" expanded="true" signature="2285:7178" ph="{...}" />
-            <marker date="1545812831669" expanded="true" signature="2395:7170" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_scripts/CollisionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -901,6 +872,21 @@
             <marker date="1431252371000" expanded="true" signature="1032:2031" ph="{...}" />
             <marker date="1431252371000" expanded="true" signature="1054:2028" ph="{...}" />
             <marker date="1431252371000" expanded="true" signature="1099:1125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <marker date="1545814816269" expanded="true" signature="0:151" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
+            <marker date="1545814816269" expanded="true" signature="182:1636" ph="{...}" />
+            <marker date="1545814816269" expanded="true" signature="195:336" ph="{...}" />
+            <marker date="1545814816269" expanded="true" signature="349:1632" ph="{...}" />
+            <marker date="1545814816269" expanded="true" signature="400:1630" ph="{...}" />
+            <marker date="1545814816269" expanded="true" signature="415:1622" ph="{...}" />
           </folding>
         </state>
       </provider>
