@@ -12,14 +12,15 @@
     <session id="-99926757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_scripts/CollisionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
@@ -114,23 +115,6 @@
                 <marker date="1431252371000" expanded="true" signature="1032:2031" ph="{...}" />
                 <marker date="1431252371000" expanded="true" signature="1054:2028" ph="{...}" />
                 <marker date="1431252371000" expanded="true" signature="1099:1125" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-              <folding>
-                <marker date="1545814816269" expanded="true" signature="0:151" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
-                <marker date="1545814816269" expanded="true" signature="182:1636" ph="{...}" />
-                <marker date="1545814816269" expanded="true" signature="195:336" ph="{...}" />
-                <marker date="1545814816269" expanded="true" signature="349:1632" ph="{...}" />
-                <marker date="1545814816269" expanded="true" signature="400:1630" ph="{...}" />
-                <marker date="1545814816269" expanded="true" signature="415:1622" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -256,7 +240,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Improved Toon Light.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fresnel.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/snow_03a.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/d2/c9cdced5/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF22069D-743B-4FBF-9FDD-BE5EE9FD4981/cc/fbb399b5/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.shader" root0="FORCE_HIGHLIGHTING" />
@@ -348,6 +331,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -369,10 +356,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -448,9 +431,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20529328" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2081545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -729,13 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
-          <folding>
-            <marker date="1544096061805" expanded="true" signature="44:5823" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="58:435" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="447:5821" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="509:5818" ph="{...}" />
-            <marker date="1544096061805" expanded="true" signature="522:5809" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,6 +832,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PeerPlay/Ripple Water/_scripts/CollisionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -872,21 +854,6 @@
             <marker date="1431252371000" expanded="true" signature="1032:2031" ph="{...}" />
             <marker date="1431252371000" expanded="true" signature="1054:2028" ph="{...}" />
             <marker date="1431252371000" expanded="true" signature="1099:1125" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <marker date="1545814816269" expanded="true" signature="0:151" ph="/* Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld' ... */" />
-            <marker date="1545814816269" expanded="true" signature="182:1636" ph="{...}" />
-            <marker date="1545814816269" expanded="true" signature="195:336" ph="{...}" />
-            <marker date="1545814816269" expanded="true" signature="349:1632" ph="{...}" />
-            <marker date="1545814816269" expanded="true" signature="400:1630" ph="{...}" />
-            <marker date="1545814816269" expanded="true" signature="415:1622" ph="{...}" />
           </folding>
         </state>
       </provider>
