@@ -4,7 +4,6 @@
 		_Color ("Tint", Color) = (0, 0, 0, 1)
 		_MainTex ("Texture", 2D) = "white" {}
 		_BackGround ("BackGround", 2D) = "white" {}
-		_Alpha ("_Alpha", Range(0,1) ) = 0
 		[KeywordEnum(OFF,ON,NULL)] _CLIPPING ("Alpha BlackGround", Float) = 0
 	}
 	SubShader
@@ -17,46 +16,46 @@
 		Pass
 		{
 			CGPROGRAM
-			#include "UnityCG.cginc"
-			#pragma vertex vert
+			#include "UnityCustomRenderTexture.cginc"
+			#pragma vertex InitCustomRenderTextureVertexShader
 			#pragma fragment frag
-			
 			#pragma shader_feature _CLIPPING_ON
 			#pragma shader_feature _CLIPPING_OFF
             sampler2D _MainTex;
             sampler2D _BackGround;
 			float4 _MainTex_ST;
 			float4 _BackGround_ST;
-            half _Alpha;
+			
 			fixed4 _Color;
-			struct appdata
-			{
-				float4 vertex : POSITION;
-				float2 uv : TEXCOORD0;
-			};
 
 			struct v2f
 			{
 				float4 position : SV_POSITION;
 				float2 uv : TEXCOORD0;
 			};
-
-			v2f vert (appdata v)
-			{
-				v2f o;
-				o.position = UnityObjectToClipPos(v.vertex);
-				o.uv = TRANSFORM_TEX(v.uv, _MainTex);
-				return o;
-			}
 			
-			fixed4 frag (v2f i) : COLOR
+			fixed4 frag(v2f_customrendertexture i) : COLOR
 			{
 				// sample the texture
-				fixed4 color = tex2D(_MainTex, i.uv);
-				fixed4 color1 = tex2D(_BackGround, i.uv);
+			    float2 uv = i.globalTexcoord;
+				fixed4 color = tex2D(_MainTex, i.localTexcoord.xy);
+				fixed4 color1 = tex2D(_BackGround,i.localTexcoord.xy);
 				color.rgb = dot(color.rgb, fixed3(.222,.707,.071));
 				color1.rgb = dot(color1.rgb, fixed3(.222, .707, .071)) * 0.3;
-				
+//				fixed alpha = 1 - color.r + color1.r;
+//                fixed rb = color1.r / alpha;
+//                fixed4 Mixcolors = fixed4(rb, rb, rb, alpha);
+                
+                fixed scale = 0.2;
+				fixed a = dot(color2.rgb, fixed3(.222, .707, .071)) * scale;
+                color1 = color1 * scale;
+                fixed maxc = max(max(color1.r, color1.g), color1.b);
+                a = max(1 - color.r + a, maxc);
+                fixed r = color1.r / a;
+                fixed g = color1.g / a;
+                fixed b = color1.b / a;
+                fixed4 Mixcolors = fixed4(r, g, b, a);
+				//======================================
 				fixed a = color.a;
 				#if defined(_CLIPPING_ON)
 				fixed r = color.r * a;
@@ -71,10 +70,7 @@
 				color = fixed4(r, g, b, 1);
 				return color;
                 #endif
-                
-			    fixed alpha = 1 - color.r + color1.r;
-                fixed r = color1.r / alpha;
-                fixed4 Mixcolors = fixed4(r, r, r, alpha);
+                //======================================
 			    return Mixcolors;
 			}
 			ENDCG

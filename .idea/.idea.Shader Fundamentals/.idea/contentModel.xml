@@ -26,6 +26,7 @@
           <e p="ClippingPlane.cs" t="Include" />
           <e p="CustomLight.shader" t="Include" />
           <e p="Disslove.shader" t="Include" />
+          <e p="DitheredLighting.shader" t="Include" />
           <e p="Fresnel.shader" t="Include" />
           <e p="Improved Toon Light.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
@@ -59,7 +60,12 @@
           <e p="white_noise_cells.shader" t="Include" />
           <e p="WhiteNoise.cginc" t="Include" />
         </e>
-        <e p="snow_03a.shader" t="Include" />
+        <e p="texture" t="Include">
+          <e p="Tanks" t="Include">
+            <e p="SaveTank.cs" t="Include" />
+            <e p="Tank.shader" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

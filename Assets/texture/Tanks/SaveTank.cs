@@ -10,17 +10,19 @@ public class SaveTank : MonoBehaviour {
 		
 	}
 
+	public Texture2D r1;
+	public Texture2D r2;
 	public RenderTexture rt;
+	public Shader sb;
 	private void Update()
 	{
 		if (Input.GetKey(KeyCode.K))
 		{
-			DumpRenderTexture(rt,Application.dataPath);
+			DumpRenderTexture(rt,Application.dataPath+"Tank.png");
 			Debug.Log("OK");
 		}
-
 	}
-
+	
 	public static void DumpRenderTexture(RenderTexture rt, string pngOutPath)
 	{
 		var oldRT = RenderTexture.active;
