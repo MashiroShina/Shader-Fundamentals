@@ -211,7 +211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   r1: {fileID: 0}
   r2: {fileID: 0}
-  rt: {fileID: 8400000, guid: 6743c3d92701e415e8cbe7c89ea43f48, type: 2}
+  rt: {fileID: 0}
   sb: {fileID: 0}
 --- !u!64 &536080454
 MeshCollider:

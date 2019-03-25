@@ -31,7 +31,6 @@ public class SaveTank : MonoBehaviour {
 		RenderTexture.active = rt;
 		tex.ReadPixels(new Rect(0, 0, rt.width, rt.height), 0, 0);
 		tex.Apply();
- 
 		File.WriteAllBytes(pngOutPath, tex.EncodeToPNG());
 		RenderTexture.active = oldRT;
 	}
