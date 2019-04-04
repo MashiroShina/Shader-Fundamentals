@@ -53,6 +53,12 @@ public class SaveTank : MonoBehaviour {
 			DumpRenderTexture(rt,Application.dataPath+"Tank.png");
 			Debug.Log("OK");
 		}
+
+		if (Input.GetKey(KeyCode.G))
+		{
+			//Debug.Log(GetFilePath());
+		}
+		
 	}
 	
 	public static void DumpRenderTexture(RenderTexture rt, string pngOutPath)
@@ -66,5 +72,35 @@ public class SaveTank : MonoBehaviour {
 		File.WriteAllBytes(pngOutPath, tex.EncodeToPNG());
 		RenderTexture.active = oldRT;
 	}
+	private List<Texture> cars = new List<Texture>();
+//	private string[] GetFilePath()
+//	{
+//		string[] path = { null };
+//		string[] strs = StandaloneFileBrowser.OpenFilePanel("打开用户数据文件", "%HOMEDRIVE/Desktop%", "", false);
+//		if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
+//		{
+//			if (strs.Length > 0)
+//			{
+//				path = strs;
+//			}
+//			else
+//			{
+//				Debug.Log("用户取消选择");
+//			}
+//		}
+//		else if (Application.platform == RuntimePlatform.OSXPlayer || Application.platform == RuntimePlatform.OSXEditor)
+//		{
+//			if (strs.Length > 0)
+//			{
+//				path = strs;
+//			}
+//			else
+//			{
+//				Debug.Log("用户取消选择");
+//			}
+//		}
+//		return path;
+//	}
+
 
 }

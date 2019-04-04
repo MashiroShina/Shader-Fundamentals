@@ -61,13 +61,39 @@
           <e p="WhiteNoise.cginc" t="Include" />
         </e>
         <e p="texture" t="Include">
+          <e p="MToon-master" t="Include">
+            <e p="MToon" t="Include">
+              <e p="Editor" t="Include">
+                <e p="MToonInspector.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="MToon.shader" t="Include" />
+                  <e p="MToonCore.cginc" t="Include" />
+                  <e p="MToonSM3.cginc" t="Include" />
+                  <e p="MToonSM4.cginc" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Enums.cs" t="Include" />
+                <e p="MToonDefinition.cs" t="Include" />
+                <e p="Utils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Tanks" t="Include">
+            <e p="SaveTank.cs" t="Include" />
+            <e p="Tank.shader" t="Include" />
+          </e>
+          <e p="Tanks的副本" t="Include">
             <e p="SaveTank.cs" t="Include" />
             <e p="Tank.shader" t="Include" />
           </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
+      <e p="MToon.csproj" t="IncludeRecursive" />
+      <e p="MToon.Editor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Shader Fundamentals.sln" t="IncludeFlat" />
