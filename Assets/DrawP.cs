@@ -5,6 +5,11 @@ using UnityEngine.EventSystems;
 
 public class DrawP : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
+    private void Update()
+    {
+        Debug.Log(Time.deltaTime);
+    }
+
     public Color color = Color.red;
 
     public float thickness = 0.02f;

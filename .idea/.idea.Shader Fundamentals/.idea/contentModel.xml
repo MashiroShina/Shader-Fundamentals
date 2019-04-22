@@ -6,6 +6,8 @@
       <e p="Assets" t="Include">
         <e p="BakeTextureWindow.cs" t="Include" />
         <e p="CreatePlane.cs" t="Include" />
+        <e p="DrawP.cs" t="Include" />
+        <e p="GodRayVolumeHelper.cs" t="Include" />
         <e p="PeerPlay" t="Include">
           <e p="Ripple Water" t="Include">
             <e p="_scripts" t="Include">
@@ -85,11 +87,8 @@
             <e p="SaveTank.cs" t="Include" />
             <e p="Tank.shader" t="Include" />
           </e>
-          <e p="Tanks的副本" t="Include">
-            <e p="SaveTank.cs" t="Include" />
-            <e p="Tank.shader" t="Include" />
-          </e>
         </e>
+        <e p="VolumeShadow.shader" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="MToon.csproj" t="IncludeRecursive" />
