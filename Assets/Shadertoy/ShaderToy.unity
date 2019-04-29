@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 1803177084}
   - component: {fileID: 1803177083}
   - component: {fileID: 1803177086}
+  - component: {fileID: 1803177087}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -212,7 +213,7 @@ Camera:
   m_GameObject: {fileID: 1803177082}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -263,12 +264,33 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1803177082}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3324b5160dc00429091759d02da2fca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   postprocessMaterial: {fileID: 2100000, guid: 5e24a83b54d19494fb3dcde8f042df9c, type: 2}
+--- !u!114 &1803177087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1803177082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc1e6bad02d04580bbc689834582599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 615c8eaf937c041ba9c2d49ae9557b7e, type: 3}
+  colorThreshold: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  lightColor: {r: 1, g: 1, b: 1, a: 1}
+  lightFactor: 0.5
+  samplerScale: 1
+  blurIteration: 2
+  downSample: 1
+  lightTransform: {fileID: 288774578}
+  lightRadius: 2
+  lightPowFactor: 3
 --- !u!1 &2041944204
 GameObject:
   m_ObjectHideFlags: 0

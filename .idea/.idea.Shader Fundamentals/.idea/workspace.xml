@@ -4,9 +4,8 @@
     <list default="true" id="8866be55-8dc5-40a2-98bb-eda5a7fced02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader Fundamentals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Custom_VolumeShadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Custom_VolumeShadow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DrawP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DrawP.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/volumeLightAndDraw.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/volumeLightAndDraw.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shadertoy/ShaderToy.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shadertoy/ShaderToy.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shadertoy/Shadertoy_Sun.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shadertoy/Shadertoy_Sun.mat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,46 +17,46 @@
     <session id="-99926757">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="9" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2525" />
-          <entry key="shader" value="7245" />
+          <entry key="cs" value="2575" />
+          <entry key="shader" value="7612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2525" />
-          <entry key="ShaderLab" value="7245" />
+          <entry key="C#" value="2575" />
+          <entry key="ShaderLab" value="7612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cginc" value="1" />
-          <entry key="cs" value="40" />
+          <entry key="cs" value="47" />
           <entry key="mat" value="5" />
           <entry key="png" value="2" />
-          <entry key="shader" value="76" />
+          <entry key="shader" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="40" />
+          <entry key="C#" value="47" />
           <entry key="Cg" value="1" />
           <entry key="Image" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="ShaderLab" value="76" />
+          <entry key="ShaderLab" value="79" />
         </counts>
       </usages-collector>
     </session>
@@ -65,91 +64,86 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CreatePlane.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Shadertoy/Sun.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <marker date="1545812135018" expanded="false" signature="6:78" ph="..." />
-                <marker date="1545812135018" expanded="true" signature="201:1420" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="331:351" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="378:1221" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="613:772" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="656:768" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="905:1143" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="957:1139" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="1252:1418" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="1275:1294" ph="{...}" />
-                <marker date="1545812135018" expanded="true" signature="1369:1415" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="107:5704" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="124:338" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="348:5362" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="5387:5676" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="5406:5666" ph="{...}" />
+                <marker date="1555921233771" expanded="true" signature="5473:5647" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Disslove.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Volume/PostEffectBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state relative-caret-position="465">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <marker date="1545270688711" expanded="true" signature="25:2305" ph="{...}" />
-                <marker date="1545270688711" expanded="true" signature="39:510" ph="{...}" />
-                <marker date="1545270688711" expanded="true" signature="522:2282" ph="{...}" />
-                <marker date="1545270688711" expanded="true" signature="579:2274" ph="{...}" />
+                <marker date="1556018270150" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556018270150" expanded="true" signature="144:699" ph="{...}" />
+                <marker date="1556018270150" expanded="true" signature="259:368" ph="{...}" />
+                <marker date="1556018270150" expanded="true" signature="268:365" ph="{...}" />
+                <marker date="1556018270150" expanded="true" signature="445:697" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../testShader/Assets/NewSurfaceShader.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Volume/Raidal Blur Postprocessing.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="595">
+              <caret line="161" selection-start-line="161" selection-end-line="161" />
               <folding>
-                <marker date="1555575713588" expanded="true" signature="25:2735" ph="{...}" />
-                <marker date="1555575713588" expanded="true" signature="39:645" ph="{...}" />
-                <marker date="1555575713588" expanded="true" signature="657:2712" ph="{...}" />
-                <marker date="1555575713588" expanded="true" signature="725:2704" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="28:3130" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="42:126" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="137:2558" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2578:3126" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2608:2763" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2682:2754" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2792:2937" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2866:2928" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="2974:3123" ph="{...}" />
+                <marker date="1556019023829" expanded="true" signature="3050:3114" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/DrawP.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Volume/GodRayPostEffect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="809">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
               <folding>
-                <marker date="1555816614046" expanded="false" signature="6:110" ph="..." />
-                <marker date="1555816614046" expanded="true" signature="196:2976" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="224:271" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="586:1371" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="619:1365" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="642:737" ph="/* Unity has a built-in shader that is useful for drawing ... */" />
-                <marker date="1555816614046" expanded="true" signature="1405:2173" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="1649:2124" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="1719:1798" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="2230:2243" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="2295:2714" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="2355:2422" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="2769:2804" ph="{...}" />
-                <marker date="1555816614046" expanded="true" signature="2828:2974" ph="{...}" />
+                <marker date="1556019100100" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556019100100" expanded="true" signature="127:3369" ph="{...}" />
+                <marker date="1556019100100" expanded="true" signature="799:858" ph="{...}" />
+                <marker date="1556019100100" expanded="true" signature="932:3363" ph="{...}" />
+                <marker date="1556019100100" expanded="true" signature="977:3276" ph="{...}" />
+                <marker date="1556019100100" expanded="true" signature="2313:2901" ph="{...}" />
+                <marker date="1556019100100" expanded="true" signature="3289:3357" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../testShader/Assets/Dissolve.shader">
+        <entry file="file://$PROJECT_DIR$/Assets/Shadertoy/PostprocessingSun.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
-                <marker date="1555573339639" expanded="true" signature="93:3378" ph="{...}" />
-                <marker date="1555573339639" expanded="true" signature="107:842" ph="{...}" />
-                <marker date="1555573339639" expanded="true" signature="854:3356" ph="{...}" />
-                <marker date="1555573339639" expanded="true" signature="981:3348" ph="{...}" />
+                <marker date="1555919469285" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555919469285" expanded="true" signature="147:349" ph="{...}" />
+                <marker date="1555919469285" expanded="true" signature="284:347" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -177,6 +171,11 @@
       <find>_Metallic</find>
       <find>_MetallicSmooth</find>
       <find>_DissolveAmount</find>
+      <find>iResolution</find>
+      <find>gl_FragCoord</find>
+      <find>iChannelResolution0</find>
+      <find>_Cutoff</find>
+      <find>iChannel1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,15 +186,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/CustomLight.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Clipping_Plane.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/River.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Volume/GodRayPostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/58/1ab90e84/Texture2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Polygon/PolygonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Polygon/Polygon_Clipping.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Volume/Raidal Blur Postprocessing.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/e0/cf1608e9/Plane.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GodRayVolumeHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shadertoy/Sun.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Fresnel.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/VolumeShadow.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D569CB30-37DD-4660-A175-BF2FB519BD4D/d2/c9cdced5/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EF22069D-743B-4FBF-9FDD-BE5EE9FD4981/cc/fbb399b5/EditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shadertoy/PostprocessingSun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Stencil_buffers/Stencil_Buffers.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Stencil_buffers/Stencil_Buffers 1.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing.cs" root0="FORCE_HIGHLIGHTING" />
@@ -213,6 +215,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Improved Toon Light.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Volume/PostEffectBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Depth_Texture.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Planar_Mapping.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Depth_Texture.cs" root0="FORCE_HIGHLIGHTING" />
@@ -241,8 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shaders/Planar_Mapping.shader" />
-        <option value="$PROJECT_DIR$/Assets/Shaders/Blend_Color.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Checkerboard_Pattern.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Fresnel.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Polygon_Clipping.shader" />
@@ -289,6 +290,11 @@
         <option value="$PROJECT_DIR$/../../../../testShader/Assets/Dissolve.shader" />
         <option value="$PROJECT_DIR$/../../../../testShader/Assets/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/DrawP.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shadertoy/PostprocessingSun.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shadertoy/Sun.shader" />
+        <option value="$PROJECT_DIR$/Assets/Volume/PostEffectBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Volume/Raidal Blur Postprocessing.shader" />
+        <option value="$PROJECT_DIR$/Assets/Volume/GodRayPostEffect.cs" />
       </list>
     </option>
   </component>
@@ -329,6 +335,11 @@
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Shadertoy" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="texture" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -346,10 +357,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,11 +428,13 @@
       <workItem from="1554367335283" duration="2095000" />
       <workItem from="1555573039846" duration="1870000" />
       <workItem from="1555816582207" duration="69000" />
+      <workItem from="1555917928180" duration="3621000" />
+      <workItem from="1556018178968" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92476000" />
+    <option name="totallyTimeSpent" value="96771000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +449,7 @@
     <frame x="0" y="23" width="1440" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,52 +492,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/River.shader">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Improved Toon Light.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="71" column="52" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Stencil_buffers/Stencil_Buffers 1.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Stencil_buffers/Stencil_Buffers.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_via_Outlines.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="24" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/snow_03a.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -571,20 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Depth_Texture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="70" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -718,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/texture/Tanks/2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -734,55 +680,14 @@
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/ClippingPlane.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/VolumeShadow.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/VolumeShadow.shader" />
     <entry file="file://$PROJECT_DIR$/Assets/CreatePlane.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1545812135018" expanded="false" signature="6:78" ph="..." />
-            <marker date="1545812135018" expanded="true" signature="201:1420" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="331:351" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="378:1221" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="613:772" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="656:768" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="905:1143" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="957:1139" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1252:1418" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1275:1294" ph="{...}" />
-            <marker date="1545812135018" expanded="true" signature="1369:1415" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Disslove.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <marker date="1545270688711" expanded="true" signature="25:2305" ph="{...}" />
-            <marker date="1545270688711" expanded="true" signature="39:510" ph="{...}" />
-            <marker date="1545270688711" expanded="true" signature="522:2282" ph="{...}" />
-            <marker date="1545270688711" expanded="true" signature="579:2274" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../testShader/Assets/Dissolve.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <marker date="1555573339639" expanded="true" signature="93:3378" ph="{...}" />
-            <marker date="1555573339639" expanded="true" signature="107:842" ph="{...}" />
-            <marker date="1555573339639" expanded="true" signature="854:3356" ph="{...}" />
-            <marker date="1555573339639" expanded="true" signature="981:3348" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,12 +695,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <marker date="1555575713588" expanded="true" signature="25:2735" ph="{...}" />
-            <marker date="1555575713588" expanded="true" signature="39:645" ph="{...}" />
-            <marker date="1555575713588" expanded="true" signature="657:2712" ph="{...}" />
-            <marker date="1555575713588" expanded="true" signature="725:2704" ph="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../testShader/Assets/Dissolve.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -803,21 +709,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Normal_Texture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing_Depth_Texture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/Postprocessing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Postprocessings/PostprocessingBlur.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="57" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shadertoy/DefultSun.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Shadertoy/Sun.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
-            <marker date="1555816614046" expanded="false" signature="6:110" ph="..." />
-            <marker date="1555816614046" expanded="true" signature="196:2976" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="224:271" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="586:1371" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="619:1365" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="642:737" ph="/* Unity has a built-in shader that is useful for drawing ... */" />
-            <marker date="1555816614046" expanded="true" signature="1405:2173" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="1649:2124" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="1719:1798" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="2230:2243" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="2295:2714" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="2355:2422" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="2769:2804" ph="{...}" />
-            <marker date="1555816614046" expanded="true" signature="2828:2974" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="107:5704" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="124:338" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="348:5362" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="5387:5676" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="5406:5666" ph="{...}" />
+            <marker date="1555921233771" expanded="true" signature="5473:5647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shadertoy/PostprocessingSun.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <marker date="1555919469285" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555919469285" expanded="true" signature="147:349" ph="{...}" />
+            <marker date="1555919469285" expanded="true" signature="284:347" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Volume/VolumeLight.shader">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Volume/PostEffectBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1556018270150" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556018270150" expanded="true" signature="144:699" ph="{...}" />
+            <marker date="1556018270150" expanded="true" signature="259:368" ph="{...}" />
+            <marker date="1556018270150" expanded="true" signature="268:365" ph="{...}" />
+            <marker date="1556018270150" expanded="true" signature="445:697" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Volume/Raidal Blur Postprocessing.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+          <folding>
+            <marker date="1556019023829" expanded="true" signature="28:3130" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="42:126" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="137:2558" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2578:3126" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2608:2763" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2682:2754" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2792:2937" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2866:2928" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="2974:3123" ph="{...}" />
+            <marker date="1556019023829" expanded="true" signature="3050:3114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Volume/GodRayPostEffect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <marker date="1556019100100" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556019100100" expanded="true" signature="127:3369" ph="{...}" />
+            <marker date="1556019100100" expanded="true" signature="799:858" ph="{...}" />
+            <marker date="1556019100100" expanded="true" signature="932:3363" ph="{...}" />
+            <marker date="1556019100100" expanded="true" signature="977:3276" ph="{...}" />
+            <marker date="1556019100100" expanded="true" signature="2313:2901" ph="{...}" />
+            <marker date="1556019100100" expanded="true" signature="3289:3357" ph="{...}" />
           </folding>
         </state>
       </provider>

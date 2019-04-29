@@ -27,8 +27,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - iChannel1:
-        m_Texture: {fileID: 2800000, guid: c4efca3ad950841dfa59ab03261c1542, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: d673a1a8b21a0438c87c8a01f941479c, type: 3}
+        m_Scale: {x: 1.54, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 1

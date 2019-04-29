@@ -62,6 +62,10 @@
           <e p="white_noise_cells.shader" t="Include" />
           <e p="WhiteNoise.cginc" t="Include" />
         </e>
+        <e p="Shadertoy" t="Include">
+          <e p="PostprocessingSun.cs" t="Include" />
+          <e p="Sun.shader" t="Include" />
+        </e>
         <e p="texture" t="Include">
           <e p="MToon-master" t="Include">
             <e p="MToon" t="Include">
@@ -88,7 +92,12 @@
             <e p="Tank.shader" t="Include" />
           </e>
         </e>
-        <e p="VolumeShadow.shader" t="Include" />
+        <e p="Volume" t="Include">
+          <e p="GodRayPostEffect.cs" t="Include" />
+          <e p="PostEffectBase.cs" t="Include" />
+          <e p="Raidal Blur Postprocessing.shader" t="Include" />
+          <e p="VolumeShadow.shader" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="MToon.csproj" t="IncludeRecursive" />
