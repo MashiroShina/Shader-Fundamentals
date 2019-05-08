@@ -1,0 +1,24 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel UpdatePos
+#pragma kernel UpdateVel
+	struct PARTICLE
+			{
+				float3 pos;
+				float3 vel;
+				float3 acc;
+			};
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+uniform	RWStructuredBuffer<PARTICLE> _Buffer;
+
+[numthreads(32,1,1)]
+void UpdatePos (uint3 id : SV_DispatchThreadID)
+{
+	_Buffer[id.x].pos+=_Buffer[id.x].vel*0.001;
+}
+
+[numthreads(32,1,1)]
+void UpdateVel (uint3 id : SV_DispatchThreadID)
+{
+	_Buffer[id.x].vel+=_Buffer[id.x].acc*0.001;
+}
