@@ -22,3 +22,22 @@ void UpdateVel (uint3 id : SV_DispatchThreadID)
 {
 	_Buffer[id.x].vel+=_Buffer[id.x].acc*0.001;
 }
+
+[numthreads(32,1,1)]
+void ClearAcc (uint3 id : SV_DispatchThreadID)
+{
+	_Buffer[id.x].acc=0;
+}
+
+[numthreads(32,1,1)]
+void AddGravity (uint3 id : SV_DispatchThreadID)
+{
+	float3 pos=_Buffer[id.x].pos;
+	float3 forceDir=normalize(-_Buffer[id.x].pos);
+	float recip=max(1,pos.x*pos.x+pos.y*pos.y+pos.z*pos.z);
+
+	_Buffer[id.x].acc+=forceDir/recip*300000;
+}
+
+
+

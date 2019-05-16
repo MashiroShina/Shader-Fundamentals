@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3c375a48922f1f41a1979e1ffaf6680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleCount: 100
+  particleCount: 0
   mat: {fileID: 2100000, guid: 0397a9736a11bf445b1dee5442f58862, type: 2}
   comps: {fileID: 7200000, guid: ab2d34345a6c85a4ebc8f792135b2d24, type: 3}
 --- !u!1 &1940053275

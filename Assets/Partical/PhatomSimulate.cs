@@ -49,11 +49,15 @@ public class PhatomSimulate : MonoBehaviour
         {
             if (particleCount>0)
             {
-                comps.SetBuffer(comps.FindKernel("UpdatePos"), "_Buffer", pBuffer);
+                comps.SetBuffer(comps.FindKernel("UpdatePoss"), "_Buffer", pBuffer);
                 comps.SetBuffer(comps.FindKernel("UpdateVel"), "_Buffer", pBuffer);
+                comps.SetBuffer(comps.FindKernel("ClearAcc"), "_Buffer", pBuffer);
+                comps.SetBuffer(comps.FindKernel("AddGravity"), "_Buffer", pBuffer);
 
-                comps.Dispatch(comps.FindKernel("UpdatePos"), (particleCount + 31) / 32, 1, 1);
+                comps.Dispatch(comps.FindKernel("UpdatePoss"), (particleCount + 31) / 32, 1, 1);
                 comps.Dispatch(comps.FindKernel("UpdateVel"), (particleCount + 31) / 32, 1, 1);
+                comps.Dispatch(comps.FindKernel("ClearAcc"), (particleCount + 31) / 32, 1, 1);
+                comps.Dispatch(comps.FindKernel("AddGravity"), (particleCount + 31) / 32, 1, 1);
             }
         }
     }
