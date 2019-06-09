@@ -8,6 +8,7 @@
         <e p="CreatePlane.cs" t="Include" />
         <e p="DrawP.cs" t="Include" />
         <e p="GodRayVolumeHelper.cs" t="Include" />
+        <e p="Hair.shader" t="Include" />
         <e p="PeerPlay" t="Include">
           <e p="Ripple Water" t="Include">
             <e p="_scripts" t="Include">
